@@ -1,0 +1,56 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 143e9064-c770-4695-a09b-614b7f1f856a)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text_box "LT1074 (12-24Vin -> 5V5A)\n-----PSU needed-----\n12V @ 3.5A\n19V @ 2.5A \n24V @ 2A\n"
+    (at 92.71 68.58 0) (size 33.02 12.7)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 9a6b28d2-7a2f-4eb4-a1e3-4327e8fea101)
+  )
+
+  (sheet (at 91.44 67.31) (size 55.88 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b6bc864f-61c6-4425-9b46-6db997687055)
+    (property "Sheetname" "Power" (at 91.44 66.5984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 91.44 99.6446 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "BT_BAT_CNTLR"
+        (path "/143e9064-c770-4695-a09b-614b7f1f856a" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 92.71 26.67) (size 54.61 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e738fe06-3180-4c58-baad-08112866092c)
+    (property "Sheetname" "uC" (at 92.71 25.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "uC.kicad_sch" (at 92.71 53.9246 0)
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
+    )
+    (instances
+      (project "BT_BAT_CNTLR"
+        (path "/143e9064-c770-4695-a09b-614b7f1f856a" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
