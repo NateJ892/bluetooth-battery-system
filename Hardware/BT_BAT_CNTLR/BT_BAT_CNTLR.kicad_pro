@@ -509,6 +509,10 @@
     [
       "b6bc864f-61c6-4425-9b46-6db997687055",
       "Power"
+    ],
+    [
+      "0deac60c-e172-4c42-b9d8-e3d64b6cbb2b",
+      "USB connectors+load switches"
     ]
   ],
   "text_variables": {}
