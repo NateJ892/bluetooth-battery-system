@@ -714,9 +714,6 @@
   (junction (at 214.63 80.01) (diameter 0) (color 0 0 0 0)
     (uuid 15a6a8f9-d93d-4072-8033-cbef2f0988cd)
   )
-  (junction (at 36.83 73.025) (diameter 0) (color 0 0 0 0)
-    (uuid 2391c5e9-bd63-49ae-8dee-d4ece323691b)
-  )
   (junction (at 133.35 69.215) (diameter 0) (color 0 0 0 0)
     (uuid 4160276f-0e31-477d-8174-b021bdfd2471)
   )
@@ -787,7 +784,7 @@
     (stroke (width 0) (type default))
     (uuid 0c65049e-f697-4939-b672-1007402ff2ed)
   )
-  (wire (pts (xy 36.83 74.295) (xy 36.83 73.025))
+  (wire (pts (xy 36.83 73.025) (xy 36.83 74.93))
     (stroke (width 0) (type default))
     (uuid 0d900452-a03b-4c51-8cad-c37ac5212201)
   )
@@ -859,7 +856,7 @@
     (stroke (width 0) (type default))
     (uuid 602a9bd0-a357-4625-9f17-e72511d57423)
   )
-  (wire (pts (xy 50.165 72.39) (xy 50.165 74.295))
+  (wire (pts (xy 50.165 72.39) (xy 50.165 74.93))
     (stroke (width 0) (type default))
     (uuid 61cd79a2-dff7-4ab7-9e3a-256bce9ab7ce)
   )
@@ -895,13 +892,9 @@
     (stroke (width 0) (type default))
     (uuid 7b2b55d4-8ea9-4989-940a-df0220d89fca)
   )
-  (wire (pts (xy 50.165 74.295) (xy 36.83 74.295))
+  (wire (pts (xy 50.165 74.93) (xy 36.83 74.93))
     (stroke (width 0) (type default))
     (uuid 7b7f1366-4020-42c3-a377-6eb5ee8fc491)
-  )
-  (wire (pts (xy 36.83 73.025) (xy 36.83 72.39))
-    (stroke (width 0) (type default))
-    (uuid 7c045c77-8fd6-4895-ad82-bf94d6ee4a26)
   )
   (wire (pts (xy 109.22 69.215) (xy 109.22 60.325))
     (stroke (width 0) (type default))
@@ -1128,9 +1121,9 @@
     (property "Datasheet" "~" (at 48.26 42.926 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid d6953ac0-7d63-417f-b08b-4a16f97789b3))
     (pin "1" (uuid c2c9be4e-c7fe-4607-8912-b146812fdfdd))
     (pin "2" (uuid 4da9c53e-4658-459d-894e-d7ac0244d9a7))
+    (pin "3" (uuid d6953ac0-7d63-417f-b08b-4a16f97789b3))
     (instances
       (project "BT_BAT_CNTLR"
         (path "/143e9064-c770-4695-a09b-614b7f1f856a/b6bc864f-61c6-4425-9b46-6db997687055"
@@ -1155,10 +1148,10 @@
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/1074fds.pdf" (at 210.82 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "4" (uuid 6e50ac01-6c35-46df-97cd-def9f95caa83))
     (pin "1" (uuid 0ba0a0c2-cfb0-4bcf-b92f-e2cf376c523b))
     (pin "2" (uuid ecd8c660-d4c4-44d9-9112-5471f48eaf7d))
     (pin "3" (uuid cc6c24c7-fbc6-44da-be10-a131d06ce9d4))
+    (pin "4" (uuid 6e50ac01-6c35-46df-97cd-def9f95caa83))
     (pin "5" (uuid cc15bebf-016b-4ba4-b549-c394303a2e10))
     (instances
       (project "BT_BAT_CNTLR"
@@ -1209,8 +1202,8 @@
     (property "Datasheet" "~" (at 245.11 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid fe6a4d53-92b1-41f8-8899-f1e163501d4f))
     (pin "1" (uuid 869b2d95-e6d0-46da-90fe-df57be19ba98))
+    (pin "2" (uuid fe6a4d53-92b1-41f8-8899-f1e163501d4f))
     (instances
       (project "BT_BAT_CNTLR"
         (path "/143e9064-c770-4695-a09b-614b7f1f856a/b6bc864f-61c6-4425-9b46-6db997687055"
@@ -1235,8 +1228,8 @@
     (property "Datasheet" "~" (at 245.11 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 20dec1b1-55b6-425b-b22d-73dd4ad403e5))
     (pin "1" (uuid c3ba7b40-60db-44dc-a71c-2a6dff87b819))
+    (pin "2" (uuid 20dec1b1-55b6-425b-b22d-73dd4ad403e5))
     (instances
       (project "BT_BAT_CNTLR"
         (path "/143e9064-c770-4695-a09b-614b7f1f856a/b6bc864f-61c6-4425-9b46-6db997687055"
@@ -1264,8 +1257,8 @@
     (property "PN" "EEE-1CA100SR" (at 109.22 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 806494a0-005e-4b9e-ac16-5f7c3235a852))
     (pin "1" (uuid b399c775-1391-42a2-956f-884523d8fdbf))
+    (pin "2" (uuid 806494a0-005e-4b9e-ac16-5f7c3235a852))
     (instances
       (project "BT_BAT_CNTLR"
         (path "/143e9064-c770-4695-a09b-614b7f1f856a/b6bc864f-61c6-4425-9b46-6db997687055"
@@ -1426,8 +1419,8 @@
     (property "PN" "EEE-1CA100SR" (at 119.38 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 77dc140e-0668-493b-8a45-49c2b8d7ac38))
     (pin "1" (uuid 8fd7633d-d79f-45be-993c-8bbd48fc845f))
+    (pin "2" (uuid 77dc140e-0668-493b-8a45-49c2b8d7ac38))
     (instances
       (project "BT_BAT_CNTLR"
         (path "/143e9064-c770-4695-a09b-614b7f1f856a/b6bc864f-61c6-4425-9b46-6db997687055"
@@ -1477,9 +1470,9 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf" (at 119.38 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid c4b16aca-be7d-404b-ac18-f9e55557a9c7))
     (pin "2" (uuid d8eda7e3-db0c-47ad-a106-fc8f822cbeda))
     (pin "3" (uuid a0242b4f-ba40-4184-9998-da441411a646))
-    (pin "1" (uuid c4b16aca-be7d-404b-ac18-f9e55557a9c7))
     (instances
       (project "BT_BAT_CNTLR"
         (path "/143e9064-c770-4695-a09b-614b7f1f856a/b6bc864f-61c6-4425-9b46-6db997687055"
@@ -1504,8 +1497,8 @@
     (property "Datasheet" "~" (at 133.35 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 4177f483-bccd-4faa-adf3-6a7fbb5406ed))
     (pin "1" (uuid eb19388d-edb4-42c4-9739-4f65186f27d7))
+    (pin "2" (uuid 4177f483-bccd-4faa-adf3-6a7fbb5406ed))
     (instances
       (project "BT_BAT_CNTLR"
         (path "/143e9064-c770-4695-a09b-614b7f1f856a/b6bc864f-61c6-4425-9b46-6db997687055"
@@ -1530,8 +1523,8 @@
     (property "Datasheet" "~" (at 214.63 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 72fa8e83-4978-4b34-9d72-fadec24a71ca))
     (pin "1" (uuid 10c35324-c524-441e-ad18-18eb13f9c81c))
+    (pin "2" (uuid 72fa8e83-4978-4b34-9d72-fadec24a71ca))
     (instances
       (project "BT_BAT_CNTLR"
         (path "/143e9064-c770-4695-a09b-614b7f1f856a/b6bc864f-61c6-4425-9b46-6db997687055"
@@ -1606,8 +1599,8 @@
     (property "Datasheet" "~" (at 133.35 52.705 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 6b799404-eaca-4d0e-a486-3a90dca805cc))
     (pin "1" (uuid ce6b9d13-6ebc-4dd0-8172-d9ad38ded13a))
+    (pin "2" (uuid 6b799404-eaca-4d0e-a486-3a90dca805cc))
     (instances
       (project "BT_BAT_CNTLR"
         (path "/143e9064-c770-4695-a09b-614b7f1f856a/b6bc864f-61c6-4425-9b46-6db997687055"
@@ -1632,8 +1625,8 @@
     (property "Datasheet" "~" (at 214.63 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 529b8335-3697-45cc-b526-8753deb5d451))
     (pin "1" (uuid b0a7bb05-54f5-42dd-b341-c095b7504ab8))
+    (pin "2" (uuid 529b8335-3697-45cc-b526-8753deb5d451))
     (instances
       (project "BT_BAT_CNTLR"
         (path "/143e9064-c770-4695-a09b-614b7f1f856a/b6bc864f-61c6-4425-9b46-6db997687055"
